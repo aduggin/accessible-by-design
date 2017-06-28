@@ -1,0 +1,34 @@
+body {
+    background: #eee;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: #2d333d;
+    color: #fff;
+    padding: 1em;
+}
+
+a.sitename {
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+a.sitename:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+footer a {
+    color: #3dbeef;
+}
