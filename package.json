@@ -1,0 +1,9 @@
+{
+  "name": "grunt-automated-accessibility-testing",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-accessibility": "^4.0.0",
+    "grunt-axe-webdriver": "0.0.5"
+  }
+}
