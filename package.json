@@ -2,8 +2,10 @@
   "name": "grunt-automated-accessibility-testing",
   "version": "0.0.1",
   "devDependencies": {
+    "dotenv": "^4.0.0",
     "grunt": "^0.4.5",
     "grunt-accessibility": "^4.0.0",
-    "grunt-axe-webdriver": "0.0.5"
+    "grunt-axe-webdriver": "0.0.5",
+    "grunt-tenon-client": "^0.8.0"
   }
 }
