@@ -1,6 +1,8 @@
 .DS_Store
-.idea/
-node_modules/*
-axeReport.json
-tenonReport.json
 .env
+.idea/
+axeReport.json
+node_modules/*
+tenonReport.json
+validation-report.json
+validation-status.json

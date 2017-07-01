@@ -41,13 +41,31 @@ module.exports = function(grunt) {
                 },
                 src: ['index.html']
             }
+        },
+
+        validation: { // begin HTML validation
+            options: {
+                reset: false,
+                stoponerror: false,
+                generateReport: false,
+                relaxerror: [
+                    'The “banner” role is unnecessary for element “header”.',
+                    'The “main” role is unnecessary for element “main”.',
+                    'The “contentinfo” role is unnecessary for element “footer”.'
+                ]
+            },
+            files: {
+                src: ['index.html']
+            }
         }
+
 
     });
 
     grunt.loadNpmTasks('grunt-accessibility');
     grunt.loadNpmTasks('grunt-axe-webdriver');
     grunt.loadNpmTasks('grunt-tenon-client');
+    grunt.loadNpmTasks('grunt-w3c-html-validation');
 
     grunt.registerTask('default', ['axe', 'sniffer', 'tenon']);
     grunt.registerTask('axe', ['axe-webdriver']);
